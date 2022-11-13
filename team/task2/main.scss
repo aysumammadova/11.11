@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    position: absolute;
+    align-items: center;
+
+}
+.header{
+    text-align: center;
+    margin: 50px;
+    h1{
+        
+        color: #252B42;
+        margin-bottom: 15px;
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 700;
+    }
+    p{
+        color: #737373;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+    }
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    .contain {
+            align-items: flex-start;
+            flex-direction: column;
+            display: flex;
+            width: 318px;
+            height: 410px;
+            margin: 30px;
+            gap: 50px;
+            .cards{
+                display: flex;
+                .cards-info{
+                    margin: 20px 10px;
+            }
+        }
+}
+}

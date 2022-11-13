@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 749px;
+}
+
+section {
+  width: 1050px;
+  height: 742px;
+  padding: 112px 0px;
+  gap: 112px;
+  display: flex;
+  flex-direction: column;
+}
+section .image {
+  display: flex;
+  padding: 0px;
+  align-items: flex-start;
+  width: 1049px;
+  height: 306px;
+}
+section .image .image-cards {
+  align-items: center;
+  width: 238px;
+  height: 306px;
+}
+section .image .image-cards img {
+  left: 0.39%;
+  right: -0.39%;
+  top: 0%;
+  bottom: 0%;
+}
+section .image .image-cards h6 {
+  color: #23A6F0;
+  font-size: 14px;
+  width: 64px;
+  height: 24px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 50px;
+}
+section img {
+  margin: 0 50%;
+}
+section .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+}
+section .content h2 {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+section .content .link {
+  display: flex;
+  gap: 10px;
+}
+section .content .link .try {
+  background-color: #23A6F0;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+section .content .link .learn {
+  border: 1px solid #23A6F0;
+  color: #23A6F0;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+section .content p {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2;
+}/*# sourceMappingURL=main.css.map */
